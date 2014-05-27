@@ -1,0 +1,1460 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's theme styles
+   ========================================================================== */
+
+/* defaults */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #444;
+    background-color: #f7f7f7;
+}
+
+.hasIntroMod body {
+    background-color: #e5e5e5;
+}
+
+.text_misc, .text_misc td {
+    line-height: 1.5;
+}
+
+p, pre, blockquote, 
+dl, menu, ol, ul,
+table {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+section, article {
+    margin: 0 0 3em;
+}
+
+section:before,
+section:after,
+article:before,
+article:after {
+    content: " ";
+    display: table;
+}
+
+section:after,
+article:after  {
+    clear: both;
+}
+
+section,
+article {
+    *zoom: 1;
+}
+
+p:last-child, pre:last-child, blockquote:last-child, 
+dl:last-child, menu:last-child, ol:last-child, ul:last-child,
+table:last-child,
+section:last-child, article:last-child {
+    margin-bottom: 0;
+}
+
+section:first-child, article:first-child {
+    margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 1.33em 0 0.67em;
+    color: #444;
+}
+
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+    margin-top: 0;
+}
+
+h1, h3          { font-family: Georgia, serif; }
+h2, h4, h5, h6  { font-family: Arial, Helvetica, sans-serif; }
+
+h4, h6 { font-weight: bold; }
+
+h1 { font-size: 2.375em; /* 38px; */ }
+h2 { font-size: 1.75em; /* 28px; */ }
+h3 { font-size: 1.375em; /* 22px; */ }
+h4 { font-size: 1.25em; /* 20px; */ }
+h5 { font-size: 1.125em; /* 18px; */ }
+h6 { font-size: 1em; /* 16px */ }
+
+img { 
+    display: block; 
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #E36A22;
+}
+
+/* top banner */
+
+.header-mod {
+    background-color: #000;
+}
+
+.header-mod > div {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.primary-nav {
+    position: absolute;
+    top: 63px;
+    right: 10.666666666667%;
+    font-size: 1em;
+    line-height: 1em;
+    margin-top: -1em;
+}
+
+.primary-nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.primary-nav li {
+    float: left;
+    margin-left: 1em;
+}
+
+.primary-nav a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+.primary-nav a:hover,
+.primary-nav a.active {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.athletics-nav-mod {
+    font-size: 1em;
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+.athletics-nav {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.athletics-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.athletics-nav li {
+    float: left;
+    border-width: 0 0 2px;
+    border-style: solid;
+    border-color: #e0e0e0;
+}
+
+.athletics-nav li.teams.active      { border-color: #e47317; }
+.athletics-nav li.coaches.active    { border-color: #16a0d9; }
+.athletics-nav li.medicine.active   { border-color: #5ace3f; }
+.athletics-nav li.collegiate.active { border-color: #05533e; }
+.athletics-nav li.strength.active   { border-color: #d9163f; }
+.athletics-nav li.calendar.active   { border-color: #5431c4; }
+
+.athletics-nav li:first-child {
+    margin-left: 0;
+}
+
+.athletics-nav a {
+    display: block;
+    padding: 0 1em;
+    background-color: #eee;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    line-height: 3.5625em;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: #888;
+    text-decoration: none;
+}
+
+.intro-mod {
+    position: relative;
+    background-color: #f7f7f7;
+    border-bottom: 3px solid #cbcbcb;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.intro-mod > div {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+#bodydiv .intro-mod > div {
+    padding: 50px 20px;
+}
+
+.selectnav .sports-nav ul,
+.selectnav .coaches-nav ul {
+    display: none;
+}
+
+.sports-nav select,
+.coaches-nav select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #ddd url('//www.harker.org/uploaded/themes/athletics/img/fa-chevron-down.png') no-repeat 7px center;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875em; /* 14px */
+    color: #666;
+    padding: 0.5em 3em 0.5em 39px; /* 39px = 7px left + 22px image + 10px right */
+    /* remove default arrow in Firefox */
+    text-indent: 0.01px;
+    text-overflow: "";
+}
+
+.loading-bar {
+    position: absolute;
+    bottom: -3px;
+    left: -100%;
+    z-index: -1;
+    width: 100%;
+    height: 3px;
+    background: #E47317;
+    pointer-events: none;
+}
+
+.loading-bar::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100%;
+    background: #E47317;
+    box-shadow: 0 0 15px #E47317, 0 0 5px #E47317;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.2s, box-shadow 2s 4s;
+    transition: opacity 0.2s, box-shadow 2s 4s;
+    -webkit-transform: rotate(2deg) translateY(-2px);
+    transform: rotate(2deg) translateY(-2px);
+}
+
+.loading-bar.loading-bar-progress {
+    z-index: 100;
+    left: -50%;
+    -webkit-transition: left 1s ease-in-out;
+    transition: left 1s ease-in-out;
+}
+
+.loading-bar.loading-bar-finish {
+    opacity: 0;
+    left: 0;
+    -webkit-transition: left 1s ease-in-out, opacity 1s 1s;
+    transition: left 1s ease-in-out, opacity 1s 1s;
+}
+
+/* main */
+
+#midcontainer {
+    min-height: 600px;
+}
+
+#midcontainer .spinner {
+    font-size: 50px;
+    line-height: 600px;
+    text-align: center;
+}
+
+#mainmiddle {
+    width: auto;
+    max-width: 1020px;
+    padding: 3em 20px;
+}
+
+    #leftbanner {
+        width: auto;
+    }
+
+    .hasRightbanner #contentdiv,
+    #rightbanner {
+        float: left;
+    }
+
+    .hasRightbanner #contentdiv {
+        width: 52.941176470588%; /* 540 / 1020 */
+    }
+
+    #rightbanner {
+        width: 37.254901960784%; /* 380 / 1020 */
+        margin-left: 9.803921568627%; /* 100 / 1020 */
+    }
+
+/* banner modules */
+
+#leftbanner > div, #rightbanner > div {
+    margin-bottom: 3em;
+}
+
+/* right banner */
+
+#rightbanner .box, 
+#rightbanner .box-feature {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+#rightbanner .box .bannermodcontent {
+    padding: 1.5em;
+    border: 1px dashed #ccc; 
+}
+
+#rightbanner .box-feature .bannermodcontent {
+    padding: 1.5em;
+    border: 1px dashed #ccc; 
+    background-color: #efefef;
+}
+
+/* bottom banner */
+
+#bottomcontainer {
+    text-align: center;
+}
+
+#bottombanner {
+    width: auto;
+    max-width: 1020px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+#bodydiv .footer, #bodydiv .social-container {
+    margin-bottom: 1.5em;
+}
+
+/* footer */
+.footer {
+    font-size: 0.75em;
+    float: left;
+}
+
+/* social icons */
+.social-container {
+    float: right;
+}
+
+.social {
+    overflow: hidden;
+    margin-top: 0;
+    padding: 0;
+}
+
+.social > li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.social > li > a {
+    display: block;
+    text-indent: -9999px;
+    width: 33px;
+    height: 33px;
+    background-image: url('http://www.harker.org/uploaded/themes/corporate/graphics/sprite.png');
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+.social-hq > a {
+    background-position: 0 0;
+}
+
+.social-hq > a:hover {
+    background-position: 0 -33px;
+}
+
+.social-hno > a {
+    background-position: -39px 0;
+}
+
+.social-hno > a:hover {
+    background-position: -39px -33px;
+}
+
+.social-facebook > a {
+    background-position: -79px 0;
+}
+
+.social-facebook > a:hover {
+    background-position: -79px -33px;
+}
+
+.social-twitter > a {
+    background-position: -118px 0;
+}
+
+.social-twitter > a:hover {
+    background-position: -118px -33px;
+}
+
+.social-youtube > a {
+    background-position: -156px 0;
+}
+
+.social-youtube > a:hover {
+    background-position: -156px -33px;
+}
+
+.social-linkedin > a {
+    background-position: -195px 0;
+}
+
+.social-linkedin > a:hover {
+    background-position: -195px -33px;
+}
+
+#acct_bar a {
+    color: #fff;    
+}
+
+#acct_bar a:hover {
+    color: #E36A22;
+}
+
+/* finalsite logo */
+#poweredby {
+    clear: both;
+}
+
+#poweredby > div {
+    width: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 1020px;
+    margin-bottom: 40px;
+}
+
+/* Typekit Badge */
+
+img.typekit-badge { display: none!important; }
+
+
+/* ==========================================================================
+   Module classes
+   ========================================================================== */
+
+.wp-feed {
+    margin: 0 0 1.5em;
+    padding: 0;
+    list-style: none;
+}
+
+.wp-article {
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    background-color: #efefef;
+    border: 1px dashed #ccc;
+    overflow: hidden;
+
+    -webkit-transition-duration: .25s;
+    -moz-transition-duration: .25s;
+    -o-transition-duration: .25s;
+    -ms-transition-duration: .25s;
+    transition-duration: .25s;
+}
+
+.wp-article:hover {
+    -webkit-box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(255, 255, 255, 0.3) inset;
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(255, 255, 255, 0.3) inset;
+}
+
+.wp-article-title {
+    font-size: 1.25em; /* 20px; */
+    margin-bottom: 0;
+}
+
+.wp-article-title a {
+    color: #444;
+    text-decoration: none;
+}
+
+.wp-article-date {
+    font-size: 1em;
+    line-height: 1.875em;
+    color: #555;
+    font-weight: 300;
+}
+
+.wp-article-excerpt {
+    margin: 1.5em 0 0;
+}
+
+.wp-article-image {
+    float: left;
+    margin-right: 1em;
+    max-width: 33%;
+}
+
+.read-more {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6363em;
+}
+
+.hkr-table {
+    border-collapse: collapse;
+    margin-bottom: 1.5em;
+}
+
+.hkr-table th, .hkr-table td {
+    padding: 9px 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.hkr-table td {
+    background: #ddd;
+}
+
+.hkr-table th {
+    background: #ccc;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.bio-col {
+    display: block;
+    float: left;
+    width: 39.21568627451%;
+    margin: 0 0 3em 5.882352941176%;
+}
+
+.bio-col:before,
+.bio-col:after {
+    content: " ";
+    display: table;
+}
+
+.bio-col:after {
+    clear: both;
+}
+
+.bio-col {
+    *zoom: 1;
+}
+
+.bio-col:nth-child(2n+2) {
+    clear: both;
+}
+
+.bio-title {
+    margin: 0;
+}
+
+.bio-meta {
+    font-size: 0.875em;
+    font-weight: bold;
+    color: #888;
+    margin: 0;
+}
+
+.bio-content {
+    font-size: 12px;
+}
+
+.box { 
+    padding: 1.5em;
+    border: 1px dashed #ccc; 
+}
+
+.box-feature {
+    padding: 1.5em;
+    border: 1px dashed #ccc; 
+    background-color: #efefef;
+}
+
+.cta {
+    display: inline-block;
+    padding: 0.67em 1em;
+    border-radius: 2px;
+    background-color: #E36A22;
+
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.cta:after {
+    content: "\0000a0\00BB"; /* &nbsp;&raquo; */
+}
+
+.cta-teams         { background-color: #e47317; }
+.cta-coaches       { background-color: #16a0d9; }
+.cta-medicine      { background-color: #5ace3f; }
+.cta-collegiate    { background-color: #05533e; }
+.cta-strength      { background-color: #d9163f; }
+.cta-calendar      { background-color: #5431c4; }
+
+.icon {
+    position: relative;
+    display: inline-block;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.icon:before, .icon:after {
+    content: "\0000a0"; /* &nbsp; */
+}
+
+.icon:before {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    background: url('//www.harker.org/uploaded/themes/athletics/img/athletics-icon-sprite-sheet.png') no-repeat;
+}
+
+.icon:after {
+    display: inline-block;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.icon-teams:before          { background-position: 0 0; }
+.icon-coaches:before        { background-position: -30px 0; }
+.icon-medicine:before       { background-position: -60px 0; }
+.icon-collegiate:before     { background-position: -90px 0; }
+.icon-strength:before       { background-position: -120px 0; }
+.icon-calendar:before       { background-position: -150px 0; }
+
+.icon-teams.active:before      { background-position: 0 -30px; }
+.icon-coaches.active:before    { background-position: -30px -30px; }
+.icon-medicine.active:before   { background-position: -60px -30px; }
+.icon-collegiate.active:before { background-position: -90px -30px; }
+.icon-strength.active:before   { background-position: -120px -30px; }
+.icon-calendar.active:before   { background-position: -150px -30px; }
+
+.active .icon-teams:before         { background-position: 0 -30px; }
+.active .icon-coaches:before       { background-position: -30px -30px; }
+.active .icon-medicine:before      { background-position: -60px -30px; }
+.active .icon-collegiate:before    { background-position: -90px -30px; }
+.active .icon-strength:before      { background-position: -120px -30px; }
+.active .icon-calendar:before      { background-position: -150px -30px; }
+
+.circle {
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.circle-left {
+    float: left;
+    margin: 0 20px 1.5em 0;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.circle-right {
+    float: right;
+    margin-left: 0 0 1.5em 20px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+/* ==========================================================================
+   Finalsite module classes
+   ========================================================================== */
+
+/* team schedule */
+
+#athschedule {
+    border: none;
+    font-size: 0.875em;
+}
+
+#athschedule tr {
+    background-color: transparent;
+}
+
+#athschedule td {
+    line-height: 1.5;
+    background-color: #ddd;
+    border: none;
+}
+
+#athschedule tr:nth-child(3n+2) td {
+    border-bottom: 1px dashed #bbb;
+}
+
+.athrowsep {
+    background-color: transparent;
+    height: 2px;
+}
+
+#athschedule a          { text-decoration: none; }
+#athschedule a:hover    { text-decoration: underline; }
+
+/* calendar controls */
+
+.calendar_titlebar {
+    padding: 0;
+    border: none;
+}
+
+#minical_img1, #minical_img2, 
+.calendar_titlebar > a {
+    display: inline-block;
+    padding: 0.5em;
+}
+
+#cal1Container, #cal2Container {
+    z-index: 1;
+}
+
+a.periodbutton_on:visited, 
+a.periodbutton_on:active, 
+a.periodbutton_on:link,
+.periodbutton_on {
+    color: #000;
+    background-color: #ccc;
+}
+
+#calnav {
+    margin-bottom: 1.5em;
+}
+
+#calnav.yui-calendar {
+    margin-bottom: 0;
+}
+
+.yui-calendar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875em;
+}
+
+.yui-calendar a.calnav {
+    color: #444; 
+    font-weight: normal;
+}
+
+.yui-calendar a.calnav:hover {
+    background: none;
+    border: none;
+    color: #444;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.yui-calendar .calcell {
+    height: 50px;
+}
+
+.yui-calendar td.calcell.calcellhover {
+    background-color: #E36A22;
+}
+
+.yui-calendar td.calcell a {
+    color: #999;
+}
+
+.options_titlebar {
+    padding: 0.5em;
+}
+
+#calcustomize .buttons,
+#calsearch .buttons {
+    background-color: #E36A22;
+    border: none;
+    text-transform: uppercase;
+}
+
+#calcustomize .buttons {
+    padding: 0.67em 1em;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+#calsearch .buttons {
+    height: 20px;
+    padding: 0 1em;
+    font-size: 12px;
+}
+
+#calcustomize #menuselect {
+    background-color: #E36A22;
+}
+
+#basicmenu .options_titlebar,
+#calendar_athletics {
+    border-width: 0 1px 1px;
+    border-style: dashed;
+    border-color: #ccc;
+    background-color: #efefef;
+}
+
+#basicmenu .options_titlebar {
+    display: none;
+    padding: 0;
+}
+
+#basicmenu .options_titlebar a {
+    display: block;
+    line-height: 40px;
+    padding: 0 1em;
+    color: #444;
+}
+
+#calendar_athletics {
+    display: block;
+    height: 160px;
+    padding: 1em;
+    margin-bottom: 1.2em; /* 12px */
+}
+
+#calendar_athletics div {
+    padding: 0.7em 0 0;
+    line-height: 1em;
+}
+
+#calsearch {
+    display: none;
+    font-size: 0.75em;
+}
+
+#calsearch .options_titlebar + table td {
+    padding: 0.5em;
+    line-height: 1.5;
+}
+
+#feedicons img {
+    display: inline;
+}
+
+/* calendar */
+
+.caldata {
+    position: relative;
+    background-color: #efefef;
+    padding: 1.5em 1.5em 1.5em 50px;
+    font-size: 0.875em; /* 14px */
+    overflow: visible;
+    overflow-x: visible;
+}
+
+#bodydiv .caldata {
+    width: auto;
+    border: 1px dashed #ccc; 
+}
+
+.caldata .eventobj {
+    margin-bottom: 1.5em;
+}
+
+#bodydiv .caldata .eventobj {
+    font-size: inherit;
+}
+
+    .caldata .eventcol {
+        padding: 0;
+    }
+
+    .caldata .eventcol:before,
+    .caldata .eventcol:after {
+        content: " ";
+        display: table;
+    }
+
+    .caldata .eventcol:after {
+        clear: both;
+    }
+
+        .caldata .event_stackdate {
+            position: absolute;
+            left: -5px;
+            background: url('//www.harker.org/uploaded/themes/athletics/img/date-ribbon.png') no-repeat;
+            display: block;
+            float: left;
+            width: 30px;
+            height: 36px;
+            padding: 3px 3px 0;
+            overflow: hidden;
+            line-height: 1.2;
+        }
+
+        .daycap_today { color: #000; }
+
+            .caldata .event_stackdate span {
+                display: block;
+                padding: 0;
+                text-align: center;
+
+                font-size: 8px;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            .caldata .event_stackdate .event_stackmonname {
+                display: none;
+            }
+
+            .caldata .event_stackdate .event_stackdaynum {
+                font-size: 20px;
+            }
+
+        .caldata .eventcon {
+            display: block;
+            float: none;
+            padding: 0;
+            width: auto;
+        }
+
+            .caldata .eventcon span {
+                display: block;
+            }
+
+            .caldata .etitle {
+                font-weight: normal;
+            }
+
+                .caldata .etitle a       { text-decoration: none; }
+                .caldata .etitle a:hover { text-decoration: underline; }
+
+                    .alertscalicon { 
+                        display: inline; 
+                        margin-left: 0.5em;
+                    }
+
+.caldata .eventspacer {
+    display: none;
+}
+
+/* ==========================================================================
+   Plugin classes
+   ========================================================================== */
+
+/* google maps */
+
+.adp, .adp table, .adp-list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #444;
+}
+
+.adp table {
+    border-spacing: 2px;
+    border-collapse: separate;
+}
+
+.adp table:last-child {
+    margin-bottom: 1.5em;
+}
+
+.adp img {
+    max-width: none;
+}
+
+/* flexslider */
+
+#leftbanner .flexslider { margin-bottom: 0; }
+.flex-direction-nav a:before { line-height: 1em; color: #d5d5d5; }
+
+/* masonry slideshow */
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+.masonry-slider {
+    visibility: hidden;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-reel {
+    height: 278px;
+    -webkit-transition-property: height, width, left;
+    -moz-transition-property: height, width, left;
+    -o-transition-property: height, width, left;
+    -ms-transition-property: height, width, left;
+    transition-property: height, width, left;
+}
+
+.slider-reel .item {
+    margin: 12px 24px 12px 0;
+}
+
+.slider-reel img {
+    width: auto;
+    max-height: 100%;
+}
+
+.slider-direction-nav { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none;
+    *height: 0;
+}
+.slider-direction-nav { display: none; }
+.masonryslider .slider-direction-nav { display: block; }
+.slider-direction-nav a  { display: block; width: 40px; height: 40px; margin: -20px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
+.masonry-slider .slider-prev { opacity: 0.7; left: 10px; }
+.masonry-slider .slider-next { opacity: 0.7; right: 10px; text-align: right; }
+.masonry-slider .slider-next:hover, .masonry-slider .slider-prev:hover { opacity: 1; }
+.start .slider-direction-nav .slider-prev { display: none; }
+.end .slider-direction-nav .slider-next { display: none; }
+.slider-direction-nav .slider-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
+.slider-direction-nav a:before  { color: #d5d5d5; font-family: "flexslider-icon"; font-size: 40px; line-height: 1em; display: inline-block; content: '\f001'; }
+.slider-direction-nav a.slider-next:before  { content: '\f002'; }
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media screen and (max-width: 995px) {
+    .athletics-nav li {
+        width: 33.333333333%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .primary-nav {
+        display: none;
+    }
+
+    .hasRightbanner #contentdiv,
+    #rightbanner {
+        float: none;
+        width: auto;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .social-container, .footer {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .athletics-nav li {
+        width: 50%;
+    }
+
+    .bio-col {
+        float: none;
+        width: auto;
+        margin-left: 0;
+    }
+
+    /* sports medicine */
+    .page_3314 #contentdiv .float-right,
+    .page_3314 #contentdiv .float-left {
+        float: none;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .athletics-nav li {
+        float: none;
+        width: auto;
+    }
+
+    /* strength & conditioning */
+    .page_3315 #contentdiv .float-right,
+    .page_3315 #contentdiv .float-left {
+        float: none;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .collegiate-mod .bio img {
+        float: none;
+        margin: 0 auto 1.5em;
+    }
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+/* clearfix */
+.group:before,
+.group:after {
+    content: " ";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    *zoom: 1;
+}
+
+.float-left     { float: left; }
+.float-right    { float: right;  }
+
+.clear          { clear: both; }
+.clear-left     { clear: right; }
+.clear-right    { clear: right; }
+
+.padding        { padding: 1em; }
+.padding-top    { padding-top: 1em; }
+.padding-right  { padding-right: 1em; }
+.padding-bottom { padding-bottom: 1em; }
+.padding-left   { padding-left: 1em; }
+
+.border         { border: 1px solid #ccc; }
+.border-top     { border-top: 1px solid #ccc; }
+.border-right   { border-right: 1px solid #ccc; }
+.border-bottom  { border-bottom: 1px solid #ccc; }
+.border-left    { border-left: 1px solid #ccc; }
+
+.margin         { margin: 1.5em 20px; }
+.margin-top     { margin-top: 1.5em; }
+.margin-right   { margin-right: 20px; }
+.margin-bottom  { margin-bottom: 1.5em; }
+.margin-left    { margin-left: 20px; }
+
+.no-margin          { margin: 0; }
+.no-margin-top      { margin-top: 0; }
+.no-margin-right    { margin-right: 0; }
+.no-margin-bottom   { margin-bottom: 0; }
+.no-margin-left     { margin-left: 0; }
+
+.medium     { font-size: 1em; }
+.medium-px  { font-size: 16px; }
+
+.small, small   { font-size: 0.875em; }
+.x-small        { font-size: 0.75em; }
+.xx-small       { font-size: 0.625em; }
+
+.static     { position: static; }
+.relative   { position: relative; }
+.absolute   { position: absolute; }
+.fixed      { position: fixed; }
+
+.hide { display: none; }
+
+.capitalize { text-transform: capitalize; }
+.uppercase  { text-transform: uppercase; }
+.lowercase  { text-transform: lowercase; }
+
+/* Columns */
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+} 
+.row:after {
+    clear: both;
+}
+
+.col {
+    display: block;
+    float: left;
+    margin-left: 2%;
+}
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+.span_1 { width: 2.25%; }
+.span_2, .twelfth { width: 6.5%; }
+.span_3, .eighth { width: 10.75%; }
+.span_4, .sixth { width: 15.0%; }
+.span_5 { width: 19.25%; }
+.span_6, .fourth { width: 23.5%; }
+.span_7 { width: 27.75%; }
+.span_8, .third { width: 32.0%; }
+.span_9 { width: 36.25%; }
+.span_10 { width: 40.5%; }
+.span_11 { width: 44.75%; }
+.span_12, .half { width: 49.0%; }
+.span_13 { width: 53.25%; }
+.span_14 { width: 57.5%; }
+.span_15 { width: 61.75%; }
+.span_16, .two-third { width: 66.0%; }
+.span_17 { width: 70.25%; }
+.span_18, .three-fourth { width: 74.5%; }
+.span_19 { width: 78.75%; }
+.span_20, .five-sixth { width: 83.0%; }
+.span_21 { width: 87.25%; }
+.span_22 { width: 91.5%; }
+.span_23 { width: 95.75%; }
+.span_24, .full-width { width: 100%; }
+
+.push_1     { padding-left: 4.25%; }
+.push_2     { padding-left: 8.5%; }
+.push_3     { padding-left: 12.75%; }
+.push_4     { padding-left: 17.0%; }
+.push_5     { padding-left: 21.25%; }
+.push_6     { padding-left: 25.5%; }
+.push_7     { padding-left: 29.75%; }
+.push_8     { padding-left: 34.0%; }
+.push_9     { padding-left: 38.25%; }
+.push_10    { padding-left: 42.5%; }
+.push_11    { padding-left: 46.75%; }
+.push_12    { padding-left: 51.0%; }
+.push_13    { padding-left: 55.25%; }
+.push_14    { padding-left: 59.5%; }
+.push_15    { padding-left: 63.75%; }
+.push_16    { padding-left: 68.0%; }
+.push_17    { padding-left: 72.25%; }
+.push_18    { padding-left: 76.5%; }
+.push_19    { padding-left: 80.75%; }
+.push_20    { padding-left: 85.0%; }
+.push_21    { padding-left: 89.25%; }
+.push_22    { padding-left: 93.5%; }
+.push_23    { padding-left: 97.75%; }
+.push_24    { padding-left: 100%; }
+
+.first-row  { margin-top: 0; }
+.last-row   { margin-bottom: 0; }
+.first-col  { margin-left: 0; }
+.last-col   { margin-right: 0; }
+
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent;
+        color: #000; /* Black prints faster: h5bp.com/s */
+        box-shadow: none;
+        text-shadow: none;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
