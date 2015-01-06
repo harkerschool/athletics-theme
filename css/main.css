@@ -882,7 +882,7 @@ a.periodbutton_on:link,
 }
 
 #calendar_athletics {
-    display: block;
+    display: block !important;
     height: 160px;
     padding: 1em;
     margin-bottom: 1.2em; /* 12px */
