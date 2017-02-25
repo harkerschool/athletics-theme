@@ -742,6 +742,12 @@ img.typekit-badge { display: none!important; }
    Finalsite module classes
    ========================================================================== */
 
+/* directory page */
+
+.pagetype_directory #contentdiv > div > table td > img {
+    max-width: 90px;
+}
+
 /* team schedule */
 
 #athschedule {
